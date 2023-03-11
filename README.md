@@ -45,11 +45,10 @@ Non-authenticated users can:
 1. Fork this repository
 2. Clone the project to your computer
 3. Install MongoDb to your computer, or you can use Atlas cloud service
-4. Create new schema in database. You can run next commands in your terminal:
-5. Add you DB properties to **application.properties**. Depending on the type of database (local or cloud), add the necessary settings to the file, such as the database name, username, password, or URL to the Atlas service. Comment out the option that is not used.
-6. Run project
-7. You can add test users by using InjectController and following the [link](http://localhost:8080/inject)
-8. For testing, you can use **Postman** or another utility at your discretion
+4. Add you DB properties to **application.properties**. Depending on the type of database (local or cloud), add the necessary settings to the file, such as the database name, username, password, or URL to the Atlas service. Comment out the option that is not used.
+5. Run project
+6. You can add test users by using InjectController and following the [link](http://localhost:8080/inject)
+7. For testing, you can use **Postman** or another utility at your discretion
     
    *Use following headers:*
 
