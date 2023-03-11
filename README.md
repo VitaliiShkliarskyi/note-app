@@ -56,6 +56,7 @@ Non-authenticated users can:
     *key*: **Content-Type**, *value*: **application/json** for sending data in JSON
 
     *key*: **Authorization**, *value*: **Basic** ***username:password*** ***encoded in Base64*** for authorization
+9. You can get all information about endpoints using **[Swagger web interface](localhost:8080/swagger-ui/)**
 
 ---
 
