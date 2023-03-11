@@ -1,11 +1,11 @@
 package test.notesapp.service.impl;
 
+import java.util.List;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import test.notesapp.model.User;
 import test.notesapp.repository.UserRepository;
 import test.notesapp.service.UserService;
-import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {

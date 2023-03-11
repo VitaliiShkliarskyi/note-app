@@ -1,11 +1,11 @@
 package test.notesapp.service.impl;
 
+import java.util.List;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import test.notesapp.model.Note;
 import test.notesapp.repository.NoteRepository;
 import test.notesapp.service.NoteService;
-import java.util.List;
 
 @Service
 public class NoteServiceImpl implements NoteService {

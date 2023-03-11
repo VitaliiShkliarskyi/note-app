@@ -1,7 +1,7 @@
 package test.notesapp.service;
 
-import test.notesapp.model.Note;
 import java.util.List;
+import test.notesapp.model.Note;
 
 public interface NoteService {
     Note add(Note note);

@@ -1,5 +1,7 @@
 package test.notesapp.controller;
 
+import java.util.List;
+import java.util.stream.Collectors;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -12,8 +14,6 @@ import test.notesapp.model.User;
 import test.notesapp.service.UserService;
 import test.notesapp.service.mapper.RequestDtoMapper;
 import test.notesapp.service.mapper.ResponseDtoMapper;
-import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/users")
@@ -48,12 +48,12 @@ public class UserController {
     }
 
     @DeleteMapping("/id")
-    public void delete (@RequestParam String id) {
+    public void delete(@RequestParam String id) {
         userService.delete(userService.get(id));
     }
 
     @PutMapping("/id")
-    public UserResponseDto update (@RequestParam String id,
+    public UserResponseDto update(@RequestParam String id,
                                    @RequestParam UserRequestDto requestDto) {
         User user = requestDtoMapper.mapToModel(requestDto);
         user.setId(id);

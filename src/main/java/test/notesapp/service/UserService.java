@@ -1,8 +1,7 @@
 package test.notesapp.service;
 
-import test.notesapp.model.User;
-
 import java.util.List;
+import test.notesapp.model.User;
 
 public interface UserService {
     User findByEmail(String email);
