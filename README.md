@@ -1,7 +1,7 @@
 # Notes-App
 
 ##  Description
-A server program that supports simple CRUD operations and authentication
+A server SpringBoot application that supports simple CRUD operations and authentication
 
 ---
 
